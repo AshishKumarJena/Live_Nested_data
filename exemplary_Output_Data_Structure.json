@@ -1,0 +1,429 @@
+{
+  "data": {
+    "masters": [
+      {
+        "masterId": "toiletRoll",
+        "inputPossible": true,
+        "compPossible": true,
+        "inputName": "Toilet Roll",
+        "emoji": "🧻",
+        "baseAmount": 1,
+        "maxAmount": 10,
+        "image": "toiletRoll",
+        "masterOk": true,
+        "unit": "x",
+        "configs": [
+          {
+            "nameDetail": "Non-recycled",
+            "nameDetail2": "",
+            "select": "A",
+            "inputCO2kg": 0.73,
+            "elConsumptionKWh": null,
+            "specificAssumptions": "Toilet roll with virgin toilet paper.",
+            "assumptions": {
+              "assumpMaterial": true,
+              "assumProduction": true,
+              "assumpDistribution": true,
+              "assumpUse": false,
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "Daniel"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Crumbie, A. (2019).  In this guide we investigate, score and rank the ethical and environmental record of 27 toilet paper brands. Ethical Consumer. URL: https://www.ethicalconsumer.org/home-garden/shopping-guide/toilet-paper"
+              },
+              {
+                "name": "Bond, E. (2014). How Much Toilet Paper Is Used Per Year? URL:  http://www.southeastgreen.com/index.php/seg-features/tips-a-faqs/tips-to-green-your-life/10551-how-much-toilet-paper-is-used-per-year"
+              },
+              {
+                "name": "Berners-Lee, M. (2011). How bad are bananas?: the carbon footprint of everything. Greystone Books. ISBN: 1553658329, 9781553658320"
+              },
+              {
+                "name": "Berners-Lee, M. (2010). What's the carbon footprint of ... using a mobile phone? URL: https://www.theguardian.com/environment/green-living-blog/2010/jun/09/carbon-footprint-mobile-phone"
+              },
+              {
+                "name": "Armstrong, M. (2018). Statista Consumer Market Outlook. The U.S. Leads the World in Toilet Paper Consumption. URL: statista.com/chart/15676/cmo-toilet-paper-consumption/\nhttps://www.nrdc.org/resources/issue-tissue-how-americans-are-flushing-forests-down-toilet"
+              },
+              {
+                "name": "The Guardian (2010). What's the carbon footprint of … a load of laundry? URL: https://www.theguardian.com/environment/green-living-blog/2010/nov/25/carbon-footprint-load-laundry"
+              },
+              {
+                "name": "The Guardian (2010).  What's the carbon footprint of ... a new car? URL: https://www.theguardian.com/environment/green-living-blog/2010/sep/23/carbon-footprint-new-car\n"
+              },
+              {
+                "name": "Herrera, T. (2009). What's the Carbon Footprint of Your Toilet Paper? URL: https://www.greenbiz.com/blog/2009/05/04/whats-carbon-footprint-your-toilet-paper"
+              }
+            ]
+          },
+          {
+            "nameDetail": "Recycled",
+            "nameDetail2": "",
+            "select": "B",
+            "inputCO2kg": 0.45,
+            "elConsumptionKWh": null,
+            "specificAssumptions": "One recycled toilet paper roll. ",
+            "assumptions": {
+              "assumpMaterial": true,
+              "assumProduction": true,
+              "assumpDistribution": true,
+              "assumpUse": false,
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "Daniel"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Crumbie, A. (2019).  In this guide we investigate, score and rank the ethical and environmental record of 27 toilet paper brands. Ethical Consumer. URL: https://www.ethicalconsumer.org/home-garden/shopping-guide/toilet-paper"
+              },
+              {
+                "name": "Bond, E. (2014). How Much Toilet Paper Is Used Per Year? URL:  http://www.southeastgreen.com/index.php/seg-features/tips-a-faqs/tips-to-green-your-life/10551-how-much-toilet-paper-is-used-per-year"
+              },
+              {
+                "name": "Berners-Lee, M. (2011). How bad are bananas?: the carbon footprint of everything. Greystone Books. ISBN: 1553658329, 9781553658320"
+              },
+              {
+                "name": "Berners-Lee, M. (2010). What's the carbon footprint of ... using a mobile phone? URL: https://www.theguardian.com/environment/green-living-blog/2010/jun/09/carbon-footprint-mobile-phone"
+              },
+              {
+                "name": "Armstrong, M. (2018). Statista Consumer Market Outlook. The U.S. Leads the World in Toilet Paper Consumption. URL: statista.com/chart/15676/cmo-toilet-paper-consumption/\nhttps://www.nrdc.org/resources/issue-tissue-how-americans-are-flushing-forests-down-toilet"
+              },
+              {
+                "name": "The Guardian (2010). What's the carbon footprint of … a load of laundry? URL: https://www.theguardian.com/environment/green-living-blog/2010/nov/25/carbon-footprint-load-laundry"
+              },
+              {
+                "name": "The Guardian (2010).  What's the carbon footprint of ... a new car? URL: https://www.theguardian.com/environment/green-living-blog/2010/sep/23/carbon-footprint-new-car\n"
+              },
+              {
+                "name": "Herrera, T. (2009). What's the Carbon Footprint of Your Toilet Paper? URL: https://www.greenbiz.com/blog/2009/05/04/whats-carbon-footprint-your-toilet-paper"
+              }
+            ]
+          }
+        ],
+        "category": {
+          "title": "Shop"
+        },
+        "subCategory": {
+          "title": "Daily Consumables",
+          "presentableTitle": null,
+          "hasFrequency": null
+        },
+        "specialModel": {
+          "title": "general"
+        }
+      },
+      {
+        "masterId": "moped",
+        "inputPossible": true,
+        "compPossible": true,
+        "inputName": "Moped",
+        "emoji": "🏍️",
+        "baseAmount": 5,
+        "maxAmount": 50,
+        "image": "moped",
+        "masterOk": true,
+        "unit": "km",
+        "configs": [
+          {
+            "nameDetail": "Petrol",
+            "nameDetail2": "",
+            "select": "A",
+            "inputCO2kg": 0.0801,
+            "elConsumptionKWh": null,
+            "specificAssumptions": "<50cc",
+            "assumptions": {
+              "assumpMaterial": false,
+              "assumProduction": false,
+              "assumpDistribution": false,
+              "assumpUse": true,
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "David"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Yung-Chen Y., Jiun-Horng, T., Hui-Fen, Y. & Hung-Lung, C.(2009). Comparison of Exhaust Emissions Resulting from Cold- and Hot-Start Motorcycle Driving Modes, Journal of the Air & Waste Management Association, 59:11, 1339-1346, DOI: 10.3155/1047-3289.59.11.1339"
+              },
+              {
+                "name": "Pomykala, A. (2018). Effectiveness of urban transport modes. MATEC Web of Conferences. 180. 03003. URL: https://doi.org/10.1051/matecconf/201818003003\n"
+              }
+            ]
+          },
+          {
+            "nameDetail": "Electric",
+            "nameDetail2": "",
+            "select": "B",
+            "inputCO2kg": 0.024912,
+            "elConsumptionKWh": 2.5,
+            "specificAssumptions": "Advanced lead - acid battery with around 100 km range. ",
+            "assumptions": {
+              "assumpMaterial": true,
+              "assumProduction": false,
+              "assumpDistribution": false,
+              "assumpUse": true,
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "David"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Caizzi, A., & Girardi, P. (2001). Comparative LCA of Electric Mopeds Versus Internal Combustion Mopeds. SAE Technical Paper Series. doi:10.4271/2001-01-3291 "
+              }
+            ]
+          }
+        ],
+        "category": {
+          "title": "Move"
+        },
+        "subCategory": {
+          "title": "Individual",
+          "presentableTitle": "individual items and activities",
+          "hasFrequency": null
+        },
+        "specialModel": {
+          "title": "general"
+        }
+      },
+      {
+        "masterId": "airconditioner",
+        "inputPossible": true,
+        "compPossible": true,
+        "inputName": "Air Conditioner",
+        "emoji": "💨",
+        "baseAmount": 6,
+        "maxAmount": 24,
+        "image": "airconditioner",
+        "masterOk": true,
+        "unit": "h",
+        "configs": [
+          {
+            "nameDetail": "Small",
+            "nameDetail2": "Central",
+            "select": "A",
+            "inputCO2kg": 0,
+            "elConsumptionKWh": 3.25,
+            "specificAssumptions": "10,000 BTU NA",
+            "assumptions": {
+              "assumpMaterial": false,
+              "assumProduction": false,
+              "assumpDistribution": false,
+              "assumpUse": "Power required to operate.",
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "Elijah"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Olivetti, E., Duan, H., & Kirchain, R. (2013). Exploration of carbon footprint of electrical products: Guidance document for product to attribute impact algorithm methodology. A publication of the Materials Systems Laboratory, Massachusetts Institute of Technology, Cambridge."
+              },
+              {
+                "name": "Wholesale Solar (2020). How Much Power Do Your Appliances Use? URL: https://www.wholesalesolar.com/solar-information/power-table"
+              }
+            ]
+          },
+          {
+            "nameDetail": "Large",
+            "nameDetail2": "Central",
+            "select": "B",
+            "inputCO2kg": 0,
+            "elConsumptionKWh": 3.8,
+            "specificAssumptions": " 24,000 BTU NA",
+            "assumptions": {
+              "assumpMaterial": false,
+              "assumProduction": false,
+              "assumpDistribution": false,
+              "assumpUse": "Power required to operate.",
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "Elijah"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Olivetti, E., Duan, H., & Kirchain, R. (2013). Exploration of carbon footprint of electrical products: Guidance document for product to attribute impact algorithm methodology. A publication of the Materials Systems Laboratory, Massachusetts Institute of Technology, Cambridge."
+              },
+              {
+                "name": "Wholesale Solar (2020). How Much Power Do Your Appliances Use? URL: https://www.wholesalesolar.com/solar-information/power-table"
+              }
+            ]
+          }
+        ],
+        "category": {
+          "title": "Live"
+        },
+        "subCategory": {
+          "title": "Household",
+          "presentableTitle": "household items and activities",
+          "hasFrequency": null
+        },
+        "specialModel": {
+          "title": "elcons"
+        }
+      },
+      {
+        "masterId": "beef",
+        "inputPossible": true,
+        "compPossible": true,
+        "inputName": "Beef",
+        "emoji": "🥩",
+        "baseAmount": 200,
+        "maxAmount": 900,
+        "image": "beef",
+        "masterOk": true,
+        "unit": "g",
+        "configs": [
+          {
+            "nameDetail": "Conventional",
+            "nameDetail2": "Cull Cow",
+            "select": "A",
+            "inputCO2kg": 0.01206,
+            "elConsumptionKWh": null,
+            "specificAssumptions": "",
+            "assumptions": {
+              "assumpMaterial": true,
+              "assumProduction": "Grass Fed.",
+              "assumpDistribution": false,
+              "assumpUse": false,
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "Daniel"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Colomb, V., Colsaet, A., Ait-Amar, S., Basset-Mens, C., Mevel, G., To, V., ... & Tailleur, A. AGRIBALYSE: the French public LCI database for agricultural products. URL:  10.1051/ocl/20140047"
+              },
+              {
+                "name": "ADEME (2017). French Agence de la transition écologique. AGRIBALYSE: the French public LCI database for agricultural products. URL: https://www.ademe.fr/en/expertise/alternative-approaches-to-production/agribalyse-program"
+              }
+            ]
+          },
+          {
+            "nameDetail": "Conventional",
+            "nameDetail2": "Calf",
+            "select": "A1",
+            "inputCO2kg": 0.00637,
+            "elConsumptionKWh": null,
+            "specificAssumptions": "",
+            "assumptions": {
+              "assumpMaterial": true,
+              "assumProduction": "Grass Fed.",
+              "assumpDistribution": false,
+              "assumpUse": false,
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "Daniel"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Colomb, V., Colsaet, A., Ait-Amar, S., Basset-Mens, C., Mevel, G., To, V., ... & Tailleur, A. AGRIBALYSE: the French public LCI database for agricultural products. URL:  10.1051/ocl/20140047"
+              },
+              {
+                "name": "ADEME (2017). French Agence de la transition écologique. AGRIBALYSE: the French public LCI database for agricultural products. URL: https://www.ademe.fr/en/expertise/alternative-approaches-to-production/agribalyse-program"
+              }
+            ]
+          },
+          {
+            "nameDetail": "Organic",
+            "nameDetail2": "Cull Cow",
+            "select": "B",
+            "inputCO2kg": 0.0082,
+            "elConsumptionKWh": null,
+            "specificAssumptions": "",
+            "assumptions": {
+              "assumpMaterial": true,
+              "assumProduction": true,
+              "assumpDistribution": false,
+              "assumpUse": false,
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "Daniel"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Colomb, V., Colsaet, A., Ait-Amar, S., Basset-Mens, C., Mevel, G., To, V., ... & Tailleur, A. AGRIBALYSE: the French public LCI database for agricultural products. URL:  10.1051/ocl/20140047"
+              },
+              {
+                "name": "ADEME (2017). French Agence de la transition écologique. AGRIBALYSE: the French public LCI database for agricultural products. URL: https://www.ademe.fr/en/expertise/alternative-approaches-to-production/agribalyse-program"
+              }
+            ]
+          },
+          {
+            "nameDetail": "Organic",
+            "nameDetail2": "Calf",
+            "select": "B1",
+            "inputCO2kg": 0.00572,
+            "elConsumptionKWh": null,
+            "specificAssumptions": "",
+            "assumptions": {
+              "assumpMaterial": true,
+              "assumProduction": true,
+              "assumpDistribution": false,
+              "assumpUse": false,
+              "assumpEndofLife": false
+            },
+            "contributors": [
+              {
+                "name": "Daniel"
+              }
+            ],
+            "conOk": true,
+            "sources": [
+              {
+                "name": "Colomb, V., Colsaet, A., Ait-Amar, S., Basset-Mens, C., Mevel, G., To, V., ... & Tailleur, A. AGRIBALYSE: the French public LCI database for agricultural products. URL:  10.1051/ocl/20140047"
+              },
+              {
+                "name": "ADEME (2017). French Agence de la transition écologique. AGRIBALYSE: the French public LCI database for agricultural products. URL: https://www.ademe.fr/en/expertise/alternative-approaches-to-production/agribalyse-program"
+              }
+            ]
+          }
+        ],
+        "category": {
+          "title": "Food"
+        },
+        "subCategory": {
+          "title": "Meat & Fish",
+          "presentableTitle": "meats and fishes",
+          "hasFrequency": null
+        },
+        "specialModel": {
+          "title": "general"
+        }
+      }
+    ]
+  }
+}
